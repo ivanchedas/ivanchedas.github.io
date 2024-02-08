@@ -75,6 +75,14 @@ document.getElementById("noBtn").addEventListener("click", function () {
       document.getElementById("sadGifContainer").style.display = "none";
       document.getElementById("sadGifContainer2").style.display = "block";
 
+      
+      var imagenCambiar = document.getElementById("perroCoctero");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
+
+
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "50px";
       document.getElementById("siBtn").style.padding = "30px 50px ";
@@ -90,6 +98,13 @@ document.getElementById("noBtn").addEventListener("click", function () {
       document.getElementById("sadGifContainer2").style.display = "none";
       document.getElementById("sadGifContainer1").style.display = "block";
 
+       
+      var imagenCambiar = document.getElementById("perroCoctero1");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
+
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "60px";
       document.getElementById("siBtn").style.padding = "40px 60px";
@@ -102,7 +117,12 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 3:
       document.getElementById("noBtn").innerHTML = "AL FINAL ME ENFADO";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
-
+ 
+      var imagenCambiar = document.getElementById("perroCoctero3");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "70px";
       document.getElementById("siBtn").style.padding = "50px 70px ";
@@ -114,6 +134,13 @@ document.getElementById("noBtn").addEventListener("click", function () {
       document.getElementById("noBtn").innerHTML = "HAZME CLICK Y SUSPENDES GEOGRAFIA";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
+
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "80px";
       document.getElementById("siBtn").style.padding = "60px 80px ";
@@ -124,6 +151,12 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 5:
       document.getElementById("noBtn").innerHTML = "VENGA DE VERDAD";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
 
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "90px";
@@ -134,6 +167,12 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 6:
       document.getElementById("noBtn").innerHTML = "SI LE DAS SE MUERE UN PERRITO SALCHICA";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
 
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "100px";
@@ -145,6 +184,12 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 7:
       document.getElementById("noBtn").innerHTML = "SI LE DAS SIGNIFICA QUE TE GUSTA EL BARSA";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
 
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "110px";
@@ -157,6 +202,13 @@ document.getElementById("noBtn").addEventListener("click", function () {
       document.getElementById("noBtn").innerHTML = "EL VERDE ES EL CORRECTO";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
 
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
+
       document.getElementById("siBtn").style.fontSize = "120px";
       document.getElementById("siBtn").style.padding = "90px 120px ";
       document.getElementById("siBtn").innerHTML = "ESTE ES EL CORRECTO"
@@ -167,6 +219,13 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 9:
       document.getElementById("noBtn").innerHTML = "COMO TE DIGO EL ROJO NO ES MI AMOR";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
+
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
 
       // Hacer que el botón "Sí" crezca
       document.getElementById("siBtn").style.fontSize = "130px";
@@ -179,6 +238,12 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 10:
       document.getElementById("noBtn").innerHTML ="MIRA SI LE DAS A ESTE BOTON YA ES QUE ME SEPARO";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
 
       document.getElementById("siBtn").style.fontSize = "140px";
       document.getElementById("siBtn").style.padding = "110px 140px ";
@@ -190,6 +255,13 @@ document.getElementById("noBtn").addEventListener("click", function () {
     case 11:
       document.getElementById("noBtn").innerHTML = "por favooooooor";
       document.getElementById("noBtn").style.backgroundColor = "#F1330A";
+
+       
+      var imagenCambiar = document.getElementById("perroCoctero5");
+      if (imagenCambiar && imagenCambiar.style){
+        imagenCambiar.style.height = "300px";
+        imagenCambiar.style.width = "250px";
+      }
 
       document.getElementById("sadGifContainer").style.display = "none";
       document.getElementById("sadGifContainer1").style.display = "none";
